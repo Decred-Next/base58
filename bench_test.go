@@ -8,7 +8,7 @@ package base58
 import (
 	"testing"
 
-	"github.com/decred/dcrd/crypto/blake256"
+	"github.com/Decred-Next/dcrnd/crypto/blake256/v8"
 )
 
 // BenchmarkBase58Encode benchmarks how long it takes to perform a base58 encode
